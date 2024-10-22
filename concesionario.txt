@@ -1,0 +1,152 @@
+﻿concesionario campusCars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jean franco Guerrero Acero
+
+
+
+
+T2
+
+
+
+
+pedro felipe Gomez bonilla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAMPUSLANDS
+sandbox
+Ruta Java
+Tibu
+2024
+Planificación
+
+
+Construcción del Modelo Conceptual
+
+
+El modelo conceptual contiene entidades con sus atributos correspondientes siendo relacionados de una forma adecuada
+Descripción
+este modelo conceptual contiene entidades, atributos y relaciones en donde se pueden encontrar de uno a muchos o de muchos a muchos
+Gráfica
+  
+
+Descripción Técnica
+las relaciones se trabajaron de esta manera.
+
+
+* Los vehículos están relacionados con clientes y con el mantenimiento ya que ellos dependen de este.
+
+
+* los clientes se relacionan con los vendedores ya que tiene que haber un negocio entre estos dos para que se pueda llegar a la compra de un vehículo
+
+
+* vendedores pasa a relacionarse con la ventas ya que al poder llegar a un acuerdo con el cliente 
+* ventas relacionado con relaciones y requisitos ya que se tiene que tener en cuenta la información de el cliente para poder registrar la venta 
+
+
+Construcción del Modelo Lógico
+este modelo contiene tablas donde se resaltan la llaves primarias y foráneas y las relaciones entre ellas
+Descripción
+se agregaron nuevas entidades en este modelo ya que al momento de relacionarla se encontró que existían de muchos a muchos
+Gráfica
+
+
+  
+
+
+
+Descripción Técnica
+las entidades que se agregaron fueron, clientes_vehiculos, clientes_vendedores, vendedores_ventas
+
+
+Normalización del Modelo Lógico
+
+
+
+
+
+
+Primera Forma Normal (1FN)
+en la primera forma normal es en se acoplan las tablas al modelo atómico y que la si se necesita expandir sea de forma vertical y no horizontal
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+segunda forma normal
+
+
+se separa en diferentes tabla las que no están unidas a la primary key de la tabla
+
+
+  
+
+Código
